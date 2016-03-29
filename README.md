@@ -5,7 +5,7 @@ Scenario:
  
   Create a program that converts an array of Strings to an ArrayList of Student objects. For the Student object class, do the following.
   
-1.  Include the following instance variables that describe each student:
+Include the following instance variables that describe each student:
   
 •   student ID
 
@@ -19,7 +19,7 @@ Scenario:
 
 •   array of grades
 
-2.  Include the following methods in the Student class:
+Include the following methods in the Student class:
 
 a.  an accessor (i.e., getter) for each instance variable from part B1
 
@@ -33,7 +33,7 @@ d.  print() to print specific student data (e.g., student ID, first name, last n
  
 Note: Printing out the grades is optional, not required.
  
-  Create a student Roster class with the following methods that contain all ArrayList method calls:
+Create a student Roster class with the following methods that contain all ArrayList method calls:
   
 a.  public static void add(String studentID, String firstname, String lastname, String emailaddress, int age, int grade1, int grade2, int grade3) that sets the instance variables from part B1 and updates the roster
 
