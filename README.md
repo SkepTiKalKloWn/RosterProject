@@ -1,8 +1,9 @@
 # RosterProject
 School project in Java. Creates and tests a class roster.
+
 Scenario:
  
-  Create a program that converts the array of Strings shown above to an ArrayList of Student objects. For the Student object class, do the following.
+  Create a program that converts an array of Strings to an ArrayList of Student objects. For the Student object class, do the following.
   
 1.  Include the following instance variables that describe each student:
   
