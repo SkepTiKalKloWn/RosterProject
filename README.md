@@ -6,9 +6,13 @@ For this assessment, you will write a program containing two classes named stude
 
  Student ID 	  Name   	            E-mail 	                Age 	        Grades     
 1            John	  Smith	        John1989@gmail.com  	     20	        88, 79, 59 
+
 2            Suzan	  Erickson	  Erickson_1990@gmailcom     19	        91, 72, 85 
+
 3            Jack	  Napoli	      The_lawyer99yahoo.com	     19	        85, 84, 87 
+
 4            Erin	  Black         Erin.black@comcast.net	   22	        91, 98, 82  
+
 5            Your name        	  Your e-mail address	     Your age	  3 test scores
 
 
