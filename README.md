@@ -5,7 +5,7 @@ Scenario:
  
   Create a program that converts an array of Strings to an ArrayList of Student objects. For the Student object class, do the following.
   
-Include the following instance variables that describe each student:
+A. Include the following instance variables that describe each student:
   
 •   student ID
 
@@ -19,7 +19,7 @@ Include the following instance variables that describe each student:
 
 •   array of grades
 
-Include the following methods in the Student class:
+B. Include the following methods in the Student class:
 
 a.  an accessor (i.e., getter) for each instance variable from part B1
 
@@ -33,7 +33,7 @@ d.  print() to print specific student data (e.g., student ID, first name, last n
  
 Note: Printing out the grades is optional, not required.
  
-Create a student Roster class with the following methods that contain all ArrayList method calls:
+C. Create a student Roster class with the following methods that contain all ArrayList method calls:
   
 a.  public static void add(String studentID, String firstname, String lastname, String emailaddress, int age, int grade1, int grade2, int grade3) that sets the instance variables from part B1 and updates the roster
 
@@ -51,7 +51,7 @@ e.  public static void print_invalid_emails() that verifies student e-mail addre
  
 Note: A valid e-mail should include an at sign (“@”) and period (“.”) and doesn’t include a space.
  
-C.  Demonstrate the program’s required functionality by running the following scenario:
+D.  Demonstrate the program’s required functionality by running the following scenario:
 print_all();
 print_invalid_emails();
 //loop through the ArrayList and for each element:
