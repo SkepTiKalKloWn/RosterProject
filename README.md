@@ -5,6 +5,7 @@ Scenario:
   Create a program that converts the array of Strings shown above to an ArrayList of Student objects. For the Student object class, do the following.
   
 1.  Include the following instance variables that describe each student:
+  
 •   student ID
 
 •   first name
