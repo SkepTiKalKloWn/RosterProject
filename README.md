@@ -21,7 +21,6 @@ Scenario:
 
 2.  Include the following methods in the Student class:
 
-3.  
 a.  an accessor (i.e., getter) for each instance variable from part B1
 
 b.  a mutator (i.e., setter) for each instance variable from part B1
