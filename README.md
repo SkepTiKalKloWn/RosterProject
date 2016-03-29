@@ -1,33 +1,8 @@
 # RosterProject
 School project in Java. Creates and tests a class roster.
 Scenario:
-
-For this assessment, you will write a program containing two classes named student and roster, respectively. The program will maintain a current roster of students within a given course. Student data for the program includes student ID, first name, last name, e-mail address, age, and array of grades. The program you create will read a list of five students, with one of the students being yourself, and use the series of method calls below (see part B3 below). A well-designed program would use the principles of encapsulation and information hiding. Here is the data that will be used from within the main method of your program:
-
- Student ID 	  Name   	            E-mail 	                Age 	        Grades     
-1            John	  Smith	        John1989@gmail.com  	     20	        88, 79, 59 
-
-2            Suzan	  Erickson	  Erickson_1990@gmailcom     19	        91, 72, 85 
-
-3            Jack	  Napoli	      The_lawyer99yahoo.com	     19	        85, 84, 87 
-
-4            Erin	  Black         Erin.black@comcast.net	   22	        91, 98, 82  
-
-5            Your name        	  Your e-mail address	     Your age	  3 test scores
-
-
-The data should be input as follows:
-String [] students = {"1,John,Smith,John1989@gmail.com,20,88,79,59", 
-             "2,Suzan,Erickson,Erickson_1990@gmailcom,19,91,72,85",
-             "3,Jack,Napoli,The_lawyer99yahoo.com,19,85,84,87",
-             "4,Erin,Black,Erin.black@comcast.net,22,91,98,82",
-             "5,[firstname],[lastname],[emailaddress],[age],[3testscores]"};
-
-Requirements:
-
-A.  Include your personal information in the last item of the table above.
  
-B.  Create a program that converts the array of Strings shown above to an ArrayList of Student objects. For the Student object class, do the following.
+  Create a program that converts the array of Strings shown above to an ArrayList of Student objects. For the Student object class, do the following.
 1.  Include the following instance variables that describe each student:
 •   student ID
 •   first name
@@ -46,7 +21,7 @@ d.  print() to print specific student data (e.g., student ID, first name, last n
  
 Note: Printing out the grades is optional, not required.
  
-3.  Create a student Roster class with the following methods that contain all ArrayList method calls:
+  Create a student Roster class with the following methods that contain all ArrayList method calls:
 a.  public static void add(String studentID, String firstname, String lastname, String emailaddress, int age, int grade1, int grade2, int grade3) that sets the instance variables from part B1 and updates the roster
 b.  public static void remove(String studentID) that removes students from the roster by student ID
  
